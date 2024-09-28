@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en Search Debe de mostrarse correctamente con valores por defecto 1`] = `
+<div>
+  <hr />
+  <div
+    class="row"
+  >
+    <div
+      class="col-5"
+    >
+      <h4>
+        Búsqueda
+      </h4>
+      <hr />
+      <form
+        aria-label="form"
+      >
+        <input
+          autocomplete="off"
+          class="form-control"
+          name="searchText"
+          placeholder="Buscar Héroe"
+          type="text"
+          value=""
+        />
+        <button
+          class="btn btn-primary mt-3"
+        >
+          Buscar
+        </button>
+        <button
+          class="btn btn-success mt-3 mx-2"
+        >
+          Atras
+        </button>
+      </form>
+    </div>
+    <div
+      class="col-7"
+    >
+      <h4>
+        Resultados
+      </h4>
+      <hr />
+      <div
+        class="alert alert-primary animate__animated animate__fadeIn"
+      >
+        Buscar un Héroe
+      </div>
+      <div
+        aria-label="alert-danger"
+        class="alert alert-danger animate__animated animate__fadeIn"
+        style="display: none;"
+      >
+        No se encontro un héroe con el nombre 
+        <b />
+        .
+      </div>
+      <div
+        class="row animate__animated animate__fadeIn"
+      />
+    </div>
+  </div>
+</div>
+`;
